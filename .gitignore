@@ -1,0 +1,7 @@
+.env/
+.venv/
+venv/
+.vscode/
+.env
+__pycache__/
+*.rar
