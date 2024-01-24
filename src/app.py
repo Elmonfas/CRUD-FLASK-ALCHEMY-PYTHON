@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('SQLALCHEMY_DATABASE_URI')
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://uduhm80bh90osxzp:fKnrPIwY1CfWfmB5JRRb@bn38v1nsmvzlu2wh62si-mysql.services.clever-cloud.com:3306/bn38v1nsmvzlu2wh62si'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 
